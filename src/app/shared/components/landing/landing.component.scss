@@ -1,0 +1,31 @@
+
+.imageForLandingPage img {
+    width: 100%; /* 100% of the viewport width */
+    height: 700px; /* 100% of the viewport height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.imageForLandingPage{
+    position: relative;
+}
+
+.headerinfo{
+    position: absolute;
+    top: 150px;
+    // top: 600px;
+    // right: 0;
+}
+.headerinfo h1{
+    font-size: 45px;
+    color: #fcfbfb;
+    font-weight: bolder;
+}
+.headerinfo h3{
+    color: #fff;
+    font-weight: bold;
+}
+.side{
+    top: 330px;
+    left: 0;
+}
